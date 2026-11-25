@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.frontierresearch/frontier",
+  "title": "Frontier: new research and citation impact",
+  "description": "New research from top journals, scored, and any paper's or researcher's FWCI, h-index, retractions.",
+  "version": "1.1.0",
+  "websiteUrl": "https://frontierresearch.co/assistants",
+  "icons": [
+    {
+      "src": "https://frontierresearch.co/brand/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://frontierresearch.co/brand/social-avatar.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "1000x1000"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://frontierresearch.co/api/mcp"
+    }
+  ]
+}
