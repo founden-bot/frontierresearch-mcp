@@ -1,5 +1,7 @@
 # Frontier MCP server
 
+[![Frontier MCP connector](https://glama.ai/mcp/connectors/co.frontierresearch/frontier/badges/score.svg)](https://glama.ai/mcp/connectors/co.frontierresearch/frontier)
+
 Frontier gives AI assistants an open index of new research from the top journals (Nature, Science, Cell, NEJM, The Lancet, PNAS and their families), scored against its primary sources and updated daily, plus the citation impact of **any** paper or researcher, read live from [OpenAlex](https://openalex.org).
 
 - **Server URL:** `https://frontierresearch.co/api/mcp` (remote, Streamable HTTP)
